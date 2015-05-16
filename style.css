@@ -1,0 +1,116 @@
+body {
+	background-color : darkgrey;
+	overflow: hidden;
+}
+div textarea{
+	display : inline-block;
+}
+
+#textArea {
+	margin : 20px 20px;
+	width : 550px;
+	height : 600px;
+	resize : none;
+	font-family : courier;
+	font-size: 20px;
+	line-height: 2;
+	padding : 15px;
+	outline : 1px;
+	border: 3px solid darkblue;
+	border-radius: 5;
+	display : none;
+}
+
+#typeArea {
+	margin : 20px 20px;
+	width : 550px;
+	height : 600px;
+	resize : none;
+	font-family: courier;
+	font-size: 20px;
+	line-height: 2;
+	padding : 15px;
+	outline : 1px;
+	border: 3px solid darkblue;
+	border-radius: 5;
+	display : none;
+}
+
+#timerWindow {
+	text-align: center;
+	color : black;
+	font-style: helvetica italic bold;
+	font-size: 30px;
+	padding: 2px;
+}
+
+#begWindow {
+	margin : 150px 500px;
+	border : 2px solid darkblue;
+	border-radius: 2;
+	background-color: white;
+}
+
+#begWindow h1 {
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial bold;
+}
+
+#begWindow p {
+	font-size : 20px;
+	font-family: Arial italic;
+	text-align: center;
+}
+
+#begWindow button {
+	font-weight: 150;
+	cursor: pointer;
+	font-size : 24px;
+	text-align: center;
+	border-radius: 10px;
+	position : fixed; right : 610px; bottom :250px;
+	background-color : white;
+}
+
+#begWindow button:hover{
+	background-color: black;
+	color : white;
+	transition : .02s;
+}
+
+#scoreWindow {
+	margin : 150px 500px;
+	border : 2px solid darkblue;
+	border-radius: 2;
+	background-color: white;
+	display : none;
+}
+
+#scoreWindow h1 {
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial bold;
+}
+
+#scoreWindow p {
+	font-size : 20px;
+	font-family: Arial italic;
+	text-align: center;
+}
+
+#scoreWindow button {
+	font-weight: 150;
+	cursor: pointer;
+	font-size : 24px;
+	text-align: center;
+	border-radius: 10px;
+	position : fixed; right : 580px; bottom :205px;
+	background-color : white;
+}
+
+#scoreWindow button:hover {
+	background-color: black;
+	color : white;
+	transition : .02s;
+}
